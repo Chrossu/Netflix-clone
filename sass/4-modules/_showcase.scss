@@ -1,0 +1,43 @@
+.showcase-top {
+  position: relative;
+  height: 80px;
+  z-index: 2;
+
+  img {
+    position: absolute;
+    width: 167px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.showcase-content {
+  @include flexCenter();
+  flex-direction: column;
+  position: relative;
+  margin-top: 10rem;
+  z-index: 2;
+
+  .container-text {
+    max-width: 640px;
+    h1 {
+      font-weight: 700;
+      font-size: 4rem;
+      margin: 0 0 1rem;
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 1.65rem;
+      margin: 0 0 3rem;
+    }
+  }
+}

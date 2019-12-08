@@ -5,4 +5,17 @@
   @media (min-width: 940px) {
     @content
   }
-}
+};
+
+// *******************
+// Utilities classes
+// *******************
+
+// Flex center
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+};
+
