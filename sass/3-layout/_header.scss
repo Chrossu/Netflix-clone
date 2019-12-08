@@ -1,0 +1,15 @@
+.showcase {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  background: url('../../img/background.jpg') no-repeat center center/cover;
+}
+
+.showcase-top {
+  position: relative;
+  height: 90px;
+
+  img {
+    width: 170px
+  }
+}

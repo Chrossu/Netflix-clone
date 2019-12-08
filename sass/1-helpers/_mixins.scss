@@ -1,0 +1,8 @@
+// **********************
+// Media Queries config
+// **********************
+@mixin desktop {
+  @media (min-width: 940px) {
+    @content
+  }
+}
