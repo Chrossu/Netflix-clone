@@ -20,7 +20,8 @@
 }
 
 .showcase-content {
-  @include flexCenter();
+  display: flex;
+  @include centerItems();
   flex-direction: column;
   position: relative;
   margin-top: 10rem;

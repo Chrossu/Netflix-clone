@@ -11,9 +11,8 @@
 // Utilities classes
 // *******************
 
-// Flex center
-@mixin flexCenter {
-  display: flex;
+// Center items with Flex or Grid
+@mixin centerItems {
   align-items: center;
   justify-content: center;
   text-align: center;
